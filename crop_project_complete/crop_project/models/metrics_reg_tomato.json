@@ -1,0 +1,43 @@
+{
+  "crop": "Tomato",
+  "best_model": "RandomForest",
+  "r2": -0.213,
+  "all_models": {
+    "LinearRegression": {
+      "r2": -0.448,
+      "rmse": 1.64,
+      "mae": 1.4,
+      "cv_r2": -0.04
+    },
+    "RandomForest": {
+      "r2": -0.213,
+      "rmse": 1.5,
+      "mae": 1.29,
+      "cv_r2": -0.167
+    },
+    "GradientBoosting": {
+      "r2": -0.38,
+      "rmse": 1.6,
+      "mae": 1.35,
+      "cv_r2": -0.623
+    }
+  },
+  "feature_importance": {
+    "rainfall_mm": 0.1699,
+    "area_ha": 0.1861,
+    "price_per_q": 0.1329,
+    "price_ma3": 0.1036,
+    "price_ma6": 0.2525,
+    "sin_month": 0.0431,
+    "cos_month": 0.1119
+  },
+  "features": [
+    "rainfall_mm",
+    "area_ha",
+    "price_per_q",
+    "price_ma3",
+    "price_ma6",
+    "sin_month",
+    "cos_month"
+  ]
+}

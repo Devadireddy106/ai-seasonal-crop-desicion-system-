@@ -1,0 +1,35 @@
+{
+  "crop": "Cotton",
+  "best_model": "LinearRegression",
+  "r2": 0.651,
+  "all_models": {
+    "LinearRegression": {
+      "r2": 0.651,
+      "rmse": 0.59,
+      "mae": 0.48,
+      "cv_r2": 0.594
+    },
+    "RandomForest": {
+      "r2": 0.363,
+      "rmse": 0.8,
+      "mae": 0.62,
+      "cv_r2": 0.6
+    },
+    "GradientBoosting": {
+      "r2": 0.254,
+      "rmse": 0.86,
+      "mae": 0.65,
+      "cv_r2": 0.517
+    }
+  },
+  "feature_importance": {},
+  "features": [
+    "rainfall_mm",
+    "area_ha",
+    "price_per_q",
+    "price_ma3",
+    "price_ma6",
+    "sin_month",
+    "cos_month"
+  ]
+}

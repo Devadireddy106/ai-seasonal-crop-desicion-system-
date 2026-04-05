@@ -63,13 +63,13 @@ def train(crop_name, epochs=60, batch_size=16, seq_len=12):
         model.summary()
         cb = [
             EarlyStopping(patience=10, restore_best_weights=True, verbose=1),
-            ModelCheckpoint(str(MODEL_DIR / f"lstm_{crop_name.lower()}.h5"),
+            ModelCheckpoint(str(MODEL_DIR / f"lstm_{crop_name.lower()}.keras"),
                             save_best_only=True, verbose=0)
         ]
         history = model.fit(X_tr, y_tr, validation_split=0.15,
                             epochs=epochs, batch_size=batch_size,
                             callbacks=cb, verbose=1)
-        model.save(str(MODEL_DIR / f"lstm_{crop_name.lower()}.h5"))
+        model.save(str(MODEL_DIR / f"lstm_{crop_name.lower()}.keras"))
     else:
         print("  ⚠ TensorFlow not available — using Ridge surrogate")
         model = build_ridge_surrogate(X_tr, y_tr, crop_name)
@@ -133,7 +133,7 @@ def predict_next_price(crop_name, n_steps=3):
     window = scaled[-12:].tolist()
     predictions = []
 
-    model_h5 = MODEL_DIR / f"lstm_{crop_name.lower()}.h5"
+    model_h5 = MODEL_DIR / f"lstm_{crop_name.lower()}.keras"
     model_pkl = MODEL_DIR / f"lstm_{crop_name.lower()}.pkl"
 
     use_tf = TF_AVAILABLE and model_h5.exists()

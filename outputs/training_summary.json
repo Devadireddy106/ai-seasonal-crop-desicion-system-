@@ -1,0 +1,44 @@
+{
+  "lstm": {
+    "Groundnut": {
+      "rmse_pct": 13.38,
+      "mae_pct": 12.08
+    },
+    "Tomato": {
+      "rmse_pct": 27.23,
+      "mae_pct": 23.0
+    },
+    "Cotton": {
+      "rmse_pct": 6.67,
+      "mae_pct": 5.75
+    }
+  },
+  "regression": {
+    "Groundnut": {
+      "r2": 0.444,
+      "best_model": "LinearRegression"
+    },
+    "Tomato": {
+      "r2": -0.213,
+      "best_model": "RandomForest"
+    },
+    "Cotton": {
+      "r2": 0.651,
+      "best_model": "LinearRegression"
+    }
+  },
+  "risk": {
+    "Groundnut": {
+      "score": 41.6,
+      "label": "Medium"
+    },
+    "Tomato": {
+      "score": 49.6,
+      "label": "Medium"
+    },
+    "Cotton": {
+      "score": 41.2,
+      "label": "Medium"
+    }
+  }
+}

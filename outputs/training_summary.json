@@ -1,16 +1,16 @@
 {
   "lstm": {
     "Groundnut": {
-      "rmse_pct": 13.02,
-      "mae_pct": 11.8
+      "rmse_pct": 13.64,
+      "mae_pct": 12.21
     },
     "Tomato": {
-      "rmse_pct": 26.4,
-      "mae_pct": 22.33
+      "rmse_pct": 26.96,
+      "mae_pct": 22.71
     },
     "Cotton": {
-      "rmse_pct": 6.7,
-      "mae_pct": 5.77
+      "rmse_pct": 6.49,
+      "mae_pct": 5.66
     }
   },
   "regression": {

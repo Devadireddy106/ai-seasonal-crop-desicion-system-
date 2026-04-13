@@ -1,7 +1,7 @@
 # 🌾 AI-Driven Seasonal Crop Planning & Income Risk Forecasting System
 
-**Anantapur District, Andhra Pradesh | Dept. of AI & ML | Third Review 2026**  
-**Team: Seema Minds | Register: MSAI24R003**
+**Anantapur District, Andhra Pradesh
+
 
 ---
 
@@ -146,4 +146,4 @@ Recommendation = argmax(FinalScore)
 
 ---
 
-*Third Review 2026 | Seema Minds | Dept. of AI & ML*
+Dept. of AI & ML*

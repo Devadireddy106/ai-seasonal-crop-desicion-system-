@@ -177,8 +177,7 @@ def build_ui():
              Regression Yield Estimation &nbsp;|&nbsp;
              Risk Scoring &nbsp;|&nbsp;
              Profit-Optimized Ranking</p>
-          <span class="badge">Third Review 2026</span>
-          <span class="badge">Team: Seema Minds</span>
+          <span class="badge">Chukkaluri Devadi Reddy</span>
           <span class="badge">Dept. AI & ML</span>
         </div>
         """)

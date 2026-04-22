@@ -1,8 +1,8 @@
 {
   "crop": "Groundnut",
-  "rmse": 988.85,
-  "mae": 885.1,
-  "rmse_pct": 13.63,
-  "mae_pct": 12.2,
+  "rmse": 966.68,
+  "mae": 853.58,
+  "rmse_pct": 13.32,
+  "mae_pct": 11.76,
   "mean_price": 7257.25
 }

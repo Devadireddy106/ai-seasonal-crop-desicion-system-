@@ -1,8 +1,8 @@
 {
   "crop": "Tomato",
-  "rmse": 1010.21,
-  "mae": 852.85,
-  "rmse_pct": 26.7,
-  "mae_pct": 22.54,
+  "rmse": 1049.21,
+  "mae": 888.66,
+  "rmse_pct": 27.73,
+  "mae_pct": 23.49,
   "mean_price": 3783.0
 }

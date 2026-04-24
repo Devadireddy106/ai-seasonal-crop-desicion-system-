@@ -1,8 +1,8 @@
 {
   "crop": "Cotton",
-  "rmse": 546.35,
-  "mae": 468.02,
-  "rmse_pct": 6.79,
-  "mae_pct": 5.82,
+  "rmse": 520.19,
+  "mae": 445.29,
+  "rmse_pct": 6.47,
+  "mae_pct": 5.54,
   "mean_price": 8041.92
 }

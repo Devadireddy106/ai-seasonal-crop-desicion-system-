@@ -1,4 +1,4 @@
-# 🌾 AI-Driven Seasonal Crop Planning & Income Risk Forecasting System
+#  AI-Driven Seasonal Crop Planning & Income Risk Forecasting System
 
 **Anantapur District, Andhra Pradesh
 
